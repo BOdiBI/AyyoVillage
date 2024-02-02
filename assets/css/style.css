@@ -3192,5 +3192,66 @@ a,
 .site-footer .footer-bottom .footer-nav ul li a:hover{
     color                   : #d77b5d;
 }
+/* Styles for popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    max-width: 90%;
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Change the font family */
+}
+
+.popup p {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Change text color */
+}
+
+.popup p::first-letter {
+    font-size: 24px; /* Increase font size for first letter */
+    color: #ff6347; /* Change color for first letter */
+}
+
+.popup p::after {
+    content: "!";
+    color: #ff6347; /* Change color for exclamation mark */
+    font-size: 24px; /* Increase font size for exclamation mark */
+}
+
+.popup p::before {
+    content: "🎉"; /* Add emoji before text */
+    display: block;
+    margin-bottom: 10px; /* Add spacing between emoji and text */
+    font-size: 36px; /* Increase font size for emoji */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .popup {
+        max-width: 80%; /* Adjust max-width for smaller screens */
+        width: auto; /* Set width to auto for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .popup p {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+
+    .popup p::before {
+        font-size: 24px; /* Decrease font size for emoji on smaller screens */
+    }
+}
+
+
+
 
 
