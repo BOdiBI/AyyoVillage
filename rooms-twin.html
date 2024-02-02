@@ -98,19 +98,24 @@
                 </ul>
                 <ul class="nav-right">
                     <li><a href="gallery.html">GALLERY</a></li>
-                    <!-- li><a href="booking.html">BOOKING</a></li>
-                    <li class="sub"><a href="blog.html">BLOG</a>
-                        <ul>
+                    <li id="bookingButton"><a href="#">BOOKING</a></li>
+                    <li id="blogButton"><a href="#">OFFERS</a></li>
+                        <!-- ul>
                             <li><a href="blog.html">BLOG LISTING</a></li>
                             <li><a href="blog-single.html">BLOG SINGLE PHOTO</a></li>
                             <li><a href="blog-single-gallery.html">BLOG SINGLE GALLERY</a></li>
                             <li><a href="blog-single-vimeo.html">BLOG SINGLE VIMEO</a></li>
                             <li><a href="blog-single-youtube.html">BLOG SINGLE YOUTUBE</a></li>
-                        </ul>
-                    </li -->
+                        </ul -->
+                    </li>
                     <li><a href="contactus.html">CONTACT</a></li>
                 </ul>
             </div>
+
+            <div id="popup" class="popup">
+                <p>Coming soon!</p>
+            </div>
+
             <div class="header-toggle">
                 <i class="fa fa-bars"></i>
             </div>
@@ -125,19 +130,20 @@
     <!-- Section Page Title -->
     <div class="section">
         <div class="widget-page-title">
-            <div class="widget-background" data-background="assets/img/photo-title.jpg"></div>
+            <div class="widget-background" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706898702/Double_rooms_1200by700.png"></div>
             <div class="wrapper-inner">
                 <!-- Title -->
-                <h5>STAY AYYO VILLAGE</h5>
-                <h1>Booking Page</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque dictum sem eget cursus semper. Nullam quis blandit lorem. Morbi blandit orci urna, eu congue magna faucibus at. In bibendum in mauris nec ultrices. Nunc et magna velit.</p>
-                <!-- Title Emd -->
+                <h5>EXPERIENCE THE FREEDOM</h5>
+                <h1>Twin Room</h1>
+                <p>Experience our Twin Rooms designed for double occupancy. Enjoy the convenience of separate beds while sharing the space!</p>
+                <!-- Title End -->
                 <!-- Breadcrumb -->
                 <div class="widget-breadcrumb">
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">PAGES</a></li>
-                        <li>BOOKING PAGE</li>
+                        <li><a href="#">ROOMS</a></li>
+                        <li>TWIN ROOM</li>
                     </ul>
                 </div>
                 <!-- Breadcrumb End -->
@@ -146,157 +152,118 @@
     </div>
     <!-- Section Page Title End -->
 
-    <!-- Section Booking -->
+    <!-- Section Rooms Detail -->
     <div class="section">
-        <div class="widget-booking-form">
-            <div class="wrapper-inner">
+        <div class="wrapper-inner">
+            <div class="widget-rooms-detail">
                 <div class="widget-inner">
                     <div class="row">
-                        <div class="col-lg-8 col-md-7">
-                            <!-- Booking Complete -->
-                            <div class="booking-complete">
-                                <h5>BOOKING</h5>
-                                <h2>Your Reservation Completed</h2>
-                                <div class="complete-message">
-                                    <i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque dictum sem eget cursus semper.    
+                        <div class="col-md-8">
+                            <!-- Room Slider -->
+                            <div class="room-slider">
+                                <div class="room-price">Kshs 2000.00 <small>PER NIGHT</small></div>
+                                <div class="owl-carousel owl-theme owl-type1">
+                                    <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706898702/Double_rooms_1200by700.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706898702/Double_rooms_1200by700.png" title="Single Room" class="popup-gallery"></a>
+                                    <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897599/Double_rooms_4.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897599/Double_rooms_4.png" title="Single Room" class="popup-gallery"></a>
+                                    <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897590/Double_rooms_3.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897590/Double_rooms_3.png" title="Single Room" class="popup-gallery"></a>
+                                    <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897587/Double_rooms_2.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897587/Double_rooms_2.png" title="Single Room" class="popup-gallery"></a>
+                                    <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897583/Double_rooms_1.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897583/Double_rooms_1.png" title="Single Room" class="popup-gallery"></a>
                                 </div>
                             </div>
-                            <!-- Booking Complete End -->
-                            <!-- Booking Form -->
-                            <div class="booking-form">
-                                <h5>BOOKING FORM</h5>
-                                <h2>Personal Info</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque dictum sem eget cursus semper.</p>
+                            <!-- Room Slider End -->
+                            <!-- Room Thumbnails -->
+                            <div class="room-thumbnails">
+                                <div class="owl-carousel">
+                                    <a href="#" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706898702/Double_rooms_1200by700.png" title="Single Room"></a>
+                                    <a href="#" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897599/Double_rooms_4.png" title="Single Room"></a>
+                                    <a href="#" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897590/Double_rooms_3.png" title="Single Room"></a>
+                                    <a href="#" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897587/Double_rooms_2.png" title="Single Room"></a>
+                                    <a href="#" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706897583/Double_rooms_1.png" title="Single Room"></a>
+                                </div>
+                            </div>
+                            <!-- Room Thumbnails End -->
+                            <!-- Room Description -->
+                            <div class="room-desc">
+                                <h5>ROOM DESCRIPTION</h5>
+                                <p>Experience the comfort of our Twin Room. This inviting space features contemporary design and modern amenities, ensuring a relaxing stay for two.</p>
+                                <p>Relax and unwind in style with a room tailored to your needs. Whether you're here for business or leisure, our Twin Room provides a haven of comfort and tranquility for you and your companion.</p>
+                        </div>
+                            <!-- Room Description End -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- Room Booking -->
+                            <!-- div class="room-booking">
+                                <h5>BOOKING</h5>
+                                <h2>Book a Room</h2>
                                 <div class="data-form">
-                                    <form action="booking.php" id="booking-form" method="post">
-                                        <input type="hidden" name="form-room" value="Royal Single Room">
+                                    <form>
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <i class="fa fa-calendar-plus-o"></i>
-                                                <input type="text" name="form-checkin" id="form-checkin" value="04/20/2016" placeholder="CHECK IN" class="datepicker">
+                                                <input type="text" name="checkin" placeholder="CHECK IN" class="datepicker" required>
                                             </div>
-                                            <div class="col-md-6">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
                                                 <i class="fa fa-calendar-plus-o"></i>
-                                                <input type="text" name="form-checkout" id="form-checkout" value="05/22/2016" placeholder="CHECK OUT" class="datepicker">
+                                                <input type="text" name="checkout" placeholder="CHECK OUT" class="datepicker" required>
                                             </div>
-                                            <div class="col-md-6">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
                                                 <i class="fa fa-caret-down"></i>
-                                                <select name="form-adults" id="form-adults">
+                                                <select name="adults" required>
                                                     <option value="">ADULTS</option>
                                                     <option value="1">1 ADULT</option>
-                                                    <option value="2" selected>2 ADULT</option>
+                                                    <option value="2">2 ADULT</option>
                                                     <option value="3">3 ADULT</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-6">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
                                                 <i class="fa fa-caret-down"></i>
-                                                <select name="form-childrens" id="form-childrens">
+                                                <select name="childrens" required>
                                                     <option value="">CHILDRENS</option>
-                                                    <option value="1" selected>1 CHILDREN</option>
+                                                    <option value="1">1 CHILDREN</option>
                                                     <option value="2">2 CHILDREN</option>
                                                     <option value="3">3 CHILDREN</option>
                                                 </select>
                                             </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-name" id="form-name" placeholder="YOUR NAME">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-surname" id="form-surname" placeholder="YOUR SURNAME">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-email" id="form-email" placeholder="YOUR EMAIL ADDRESS">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-phone" id="form-phone" placeholder="YOUR PHONE">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-address1" id="form-address1" placeholder="ADDRESS LINE 1">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-address2" id="form-address2" placeholder="ADDRESS LINE 2">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-city" id="form-city" placeholder="CITY">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="form-country" id="form-country" placeholder="COUNTRY">
-                                            </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-12">
-                                                <textarea cols="6" rows="8" name="form-requirements" id="form-requirements" placeholder="SPECIAL REQUIREMENTS"></textarea>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="submit" value="BOOK NOW BY EMAIL" class="btn">
+                                                <button type="submit" class="btn">BOOK NOW THIS ROOM</button>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
+                            </div -->
+                            <!-- Room Booking End -->
+                            <!-- Room Features -->
+                            <div class="room-features">
+                                <h5>FEATURES</h5>
+                                <h2>Room Features</h2>
+                                <ul>
+                                <li><i class="fa fa-check"></i> BREAKFAST</li>
+                                <li><i class="fa fa-check"></i> WI-FI</li>
+                                <!-- li><i class="fa fa-check"></i> HAIR DRYER</li -->
+                                <li><i class="fa fa-check"></i> LCD TV</li>
+                                <li><i class="fa fa-check"></i> SHOWER</li>
+                                <!-- li><i class="fa fa-check"></i> SECURITY SYSTEM</li -->
+                                <!-- li><i class="fa fa-check"></i> AIR CONDITIONING</li -->
+                                <!-- li><i class="fa fa-check"></i> MINI BAR</li -->
+                                <!-- li><i class="fa fa-check"></i> TEA AND COFFEE SET</li -->
+                                </ul>
                             </div>
-                            <!-- Booking Form End -->
-                        </div>
-                        <div class="col-lg-4 col-md-5">
-                            <!-- Booking Detail -->
-                            <div class="booking-detail">
-                                <h5>BOOKING DETAILS</h5>
-                                <h2>Selected Room</h2>
-                                <div class="detail-room">
-                                    <div class="room-photo">
-                                        <a href="rooms-detail.html" data-background="assets/img/photo-room-5.jpg"></a>
-                                    </div>
-                                    <div class="room-desc">
-                                        <h3><a href="rooms-detail.html">Single Room</a></h3>
-                                        <h4>Kshs 2000.00 <small>PER NIGHT</small></h4>
-                                    </div>
-                                </div>
-                                <div class="detail-info">
-                                    <ul>
-                                        <li>
-                                            <label>CHECK IN</label>
-                                            <p>04/20/2022</p>
-                                        </li>
-                                        <li>
-                                            <label>CHECK OUT</label>
-                                            <p>04/22/2022</p>
-                                        </li>
-                                        <li>
-                                            <label>ADULTS</label>
-                                            <p>2 PERSON</p>
-                                        </li>
-                                        <li>
-                                            <label>CHILDRENS</label>
-                                            <p>1 CHILDREN</p>
-                                        </li>
-                                        <li>
-                                            <label>NIGHT</label>
-                                            <p>2 NIGHT</p>
-                                        </li>
-                                        <li>
-                                            <label>TAX (10%)</label>
-                                            <p>Kshs 380.00</p>
-                                        </li>
-                                        <li class="total">
-                                            <label>TOTAL PRICE</label>
-                                            <p>Kshs 4000.00</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Booking Detail End -->
-                            <!-- Booking Help -->
-                            <div class="booking-help">
-                                <h5>HELP</h5>
-                                <h2>Need Booking Help?</h2>
-                                <p>If you need help with booking, Our advisor team are 24/7 at your service to help you.</p>
-                                <p><a href="mailto:help@ayyovillageisiolo.com">help@ayyovillageisiolo.com</a></p>
-                                <h3><i class="fa fa-phone-square"></i>+254 (720) 000 333</h3>
-                            </div>
-                            <!-- Booking Help End -->
+                            <!-- Room Features End -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Section Booking End -->
+    <!-- Section Rooms Detail End -->
 </div>
 <!-- Site Main End -->
 
@@ -339,7 +306,7 @@
                 <img src="https://res.cloudinary.com/drcqfiqpv/image/upload/v1664873109/LOGO_brown_WHITE_Small_II_k4u6gj.png" alt="The Ayyo Village Hotel">
             </div>
             <div class="footer-copyright">
-                <p>COPYRIGHT © Ayyo Village Hotel & Restaurant.</p>
+                <p>COPYRIGHT © Ayyo Village Hotel.</p>
             </div>
             <div class="footer-contact">
                 <ul>

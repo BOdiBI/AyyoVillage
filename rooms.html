@@ -4,7 +4,7 @@
 
 <!-- Basic Page Head -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Ayyo Village Hotel and Restaurant</title>
+<title>Ayyo Village Hotel</title>
 <meta name="description" content="Responsive Hotel Template">
 <meta name="author" content="Loco Theme - locotheme.com">
 <meta name="keywords" content="hotel, hostel, motel, guesthouse, booking, accommodation, inn, spa, resort, travel, holiday, tourism, vacation, bootstrap, responsive">
@@ -61,7 +61,7 @@
     <!-- Header Top -->
     <div class="header-top">
         <div class="wrapper">
-            <div class="header-contact">
+            <!-- div class="header-contact">
                 <ul>
                     <li>+254 (720) 495 007</li>
                     <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -69,7 +69,7 @@
                     <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
                 </ul>
-            </div>
+            </div -->
             <div class="header-lang">
                 <ul>
                     <li class="active"><a href="#">EN</a></li>
@@ -91,26 +91,31 @@
                     <li class="sub"><a href="rooms.html">ROOMS</a>
                         <ul>
                             <li><a href="rooms.html">ROOMS LISTING</a></li>
-                            <li><a href="rooms-detail.html">ROOMS DETAIL</a></li>
+                            <!-- li><a href="rooms-detail.html">ROOMS DETAIL</a></li -->
                         </ul>
                     </li>
                     <li><a href="services.html">SERVICES</a></li>
                 </ul>
                 <ul class="nav-right">
                     <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="booking.html">BOOKING</a></li>
-                    <li class="sub"><a href="blog.html">BLOG</a>
-                        <ul>
+                    <li id="bookingButton"><a href="#">BOOKING</a></li>
+                    <li id="blogButton"><a href="#">OFFERS</a></li>
+                        <!-- ul>
                             <li><a href="blog.html">BLOG LISTING</a></li>
                             <li><a href="blog-single.html">BLOG SINGLE PHOTO</a></li>
                             <li><a href="blog-single-gallery.html">BLOG SINGLE GALLERY</a></li>
                             <li><a href="blog-single-vimeo.html">BLOG SINGLE VIMEO</a></li>
                             <li><a href="blog-single-youtube.html">BLOG SINGLE YOUTUBE</a></li>
-                        </ul>
+                        </ul -->
                     </li>
                     <li><a href="contactus.html">CONTACT</a></li>
                 </ul>
             </div>
+
+            <div id="popup" class="popup">
+                <p>Coming soon!</p>
+            </div>
+            
             <div class="header-toggle">
                 <i class="fa fa-bars"></i>
             </div>
@@ -128,9 +133,9 @@
             <div class="widget-background" data-background="assets/img/photo-title.jpg"></div>
             <div class="wrapper-inner">
                 <!-- Title -->
-                <h5>EXPERIENCE THE LUXURY</h5>
-                <h1>Luxurious Rooms</h1>
-                <p>Indulge in the epitome of comfort and elegance. Our meticulously designed rooms offer a perfect blend of style and functionality for an unforgettable stay.</p>
+                <h5>EXPERIENCE LUXURY</h5>
+                <h1>Comfy Rooms</h1>
+                <p>Enjoy cozy comfort and style. Our rooms are designed for a memorable stay.</p>
                 <!-- Title End -->
                 <!-- Breadcrumb -->
                 <div class="widget-breadcrumb">
@@ -153,7 +158,7 @@
             <div class="widget-rooms-list">
                 <div class="rooms-item">
                     <div class="item-photo">
-                        <a href="rooms-detail.html" data-background="assets/img/photo-room-1.jpg"></a>
+                        <a href="rooms-detail.html" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706899830/Single_roomdetails.png"></a>
                     </div>
                     <div class="item-desc">
                         <h2><a href="rooms-detail.html">Single Room</a></h2>
@@ -162,13 +167,13 @@
                             <ul>
                                 <li><i class="fa fa-check"></i> BREAKFAST</li>
                                 <li><i class="fa fa-check"></i> WI-FI</li>
-                                <li><i class="fa fa-check"></i> HAIR DRYER</li>
+                                <!-- li><i class="fa fa-check"></i> HAIR DRYER</li -->
                                 <li><i class="fa fa-check"></i> LCD TV</li>
-                                <li><i class="fa fa-check"></i> SHOWER AND TAB</li>
-                                <li><i class="fa fa-check"></i> SECURITY SYSTEM</li>
-                                <li><i class="fa fa-check"></i> AIR CONDITIONING</li>
-                                <li><i class="fa fa-check"></i> MINI BAR</li>
-                                <li><i class="fa fa-check"></i> TEA AND COFFEE SET</li>
+                                <li><i class="fa fa-check"></i> SHOWER</li>
+                                <!-- li><i class="fa fa-check"></i> SECURITY SYSTEM</li -->
+                                <!-- li><i class="fa fa-check"></i> AIR CONDITIONING</li -->
+                                <!-- li><i class="fa fa-check"></i> MINI BAR</li -->
+                                <!-- li><i class="fa fa-check"></i> TEA AND COFFEE SET</li -->
                             </ul>
                         </div>
                     </div>
@@ -178,28 +183,28 @@
                             <h3>Kshs 2000.00</h3>
                             <h4>Kshs 2250.00</h4>
                             <h5>PER NIGHT</h5>
-                            <a href="rooms-detail.html" class="btn">ROOM DETAIL</a>
+                            <a href="rooms-single.html" class="btn">ROOM DETAIL</a>
                         </div>
                     </div>
                 </div>
                 <div class="rooms-item">
                     <div class="item-photo">
-                        <a href="rooms-detail.html" data-background="assets/img/photo-room-2.jpg"></a>
+                        <a href="rooms-detail.html" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706794144/Double_roomspage.png"></a>
                     </div>
                     <div class="item-desc">
-                        <h2><a href="rooms-detail.html">Double Room</a></h2>
-                        <p> <p>Immerse yourself in luxury with our Classic Double Room. Perfect for couples, enjoy a spacious and elegant retreat with top-notch amenities.</p></p>
+                        <h2><a href="rooms-detail.html">Twin Room</a></h2>
+                        <p> <p>Immerse yourself in luxury with our Classic Twin Bed Room. Perfect for couples, enjoy a spacious and elegant retreat with top-notch amenities.</p></p>
                         <div class="desc-features">
                             <ul>
                                 <li><i class="fa fa-check"></i> BREAKFAST</li>
                                 <li><i class="fa fa-check"></i> WI-FI</li>
-                                <li><i class="fa fa-check"></i> HAIR DRYER</li>
+                                <!-- li><i class="fa fa-check"></i> HAIR DRYER</li -->
                                 <li><i class="fa fa-check"></i> LCD TV</li>
-                                <li><i class="fa fa-check"></i> SHOWER AND TAB</li>
-                                <li><i class="fa fa-check"></i> SECURITY SYSTEM</li>
-                                <li><i class="fa fa-check"></i> AIR CONDITIONING</li>
-                                <li><i class="fa fa-check"></i> MINI LOUNGE</li>
-                                <li><i class="fa fa-check"></i> TEA AND COFFEE SET</li>
+                                <li><i class="fa fa-check"></i> SHOWER</li>
+                                <!-- li><i class="fa fa-check"></i> SECURITY SYSTEM</li -->
+                                <!-- li><i class="fa fa-check"></i> AIR CONDITIONING</li -->
+                                <!-- li><i class="fa fa-check"></i> MINI BAR</li -->
+                                <!-- li><i class="fa fa-check"></i> TEA AND COFFEE SET</li -->
                             </ul>
                         </div>
                     </div>
@@ -209,11 +214,12 @@
                             <h3>Kshs 3300.00</h3>
                             <h4>Kshs 3950.00</h4>
                             <h5>PER NIGHT</h5>
-                            <a href="rooms-detail.html" class="btn">ROOM DETAIL</a>
+                            <a href="rooms-twin.html" class="btn">ROOM DETAIL</a>
                         </div>
                     </div>
                 </div>
-                <div class="rooms-item">
+
+                <!-- div class="rooms-item">
                     <div class="item-photo">
                         <a href="rooms-detail.html" data-background="assets/img/photo-room-3.jpg"></a>
                     </div>
@@ -243,8 +249,8 @@
                             <a href="rooms-detail.html" class="btn">ROOM DETAIL</a>
                         </div>
                     </div>
-                </div>
-                <div class="rooms-item">
+                </div -->
+                <!-- div class="rooms-item">
                     <div class="item-photo">
                         <a href="rooms-detail.html" data-background="assets/img/photo-room-4.jpg"></a>
                     </div>
@@ -274,8 +280,8 @@
                             <a href="rooms-detail.html" class="btn">ROOM DETAIL</a>
                         </div>
                     </div>
-                </div>
-                <div class="rooms-item">
+                </div -->
+                <!-- div class="rooms-item">
                     <div class="item-photo">
                         <a href="rooms-detail.html" data-background="assets/img/photo-room-5.jpg"></a>
                     </div>
@@ -305,16 +311,17 @@
                             <a href="rooms-detail.html" class="btn">ROOM DETAIL</a>
                         </div>
                     </div>
-                </div>
+                </div -->
             </div>
             <!-- Rooms List End -->
             <!-- Pager -->
             <div class="widget-pager">
                 <ul>
-                    <li><a href="#">1</a></li>
-                    <li class="active"><a href="#">2</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <!-- li><a href="#">1</a></li>
+                    
                     <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
+                    <li><a href="#">4</a></li -->
                 </ul>
             </div>
             <!-- Pager End -->
@@ -363,7 +370,7 @@
                 <img src="https://res.cloudinary.com/drcqfiqpv/image/upload/v1664873109/LOGO_brown_WHITE_Small_II_k4u6gj.png" alt="The Ayyo Village Hotel">
             </div>
             <div class="footer-copyright">
-                <p>COPYRIGHT © Ayyo Village Hotel & Restaurant.</p>
+                <p>COPYRIGHT © Ayyo Village Hotel.</p>
             </div>
             <div class="footer-contact">
                 <ul>

@@ -4,7 +4,7 @@
 
 <!-- Basic Page Head -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Ayyo Village Hotel and Restaurant</title>
+<title>Ayyo Village Hotel</title>
 
 <!-- Mobile Meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -54,11 +54,13 @@
         <div class="wrapper">
             <div class="header-contact">
                 <ul>
+                    <!--
                     <li>+254 (720) 495 007</li>
                     <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    -->
                 </ul>
             </div>
             <div class="header-lang">
@@ -81,7 +83,7 @@
                     <li><a href="aboutus.html">ABOUT US</a></li>
                     <li class="sub"><a href="rooms.html">ROOMS</a>
                         <ul>
-                            <li><a href="rooms.html">ROOMS LISTING</a></li>
+                            <!-- li><a href="rooms.html">ROOMS LISTING</a></li -->
                             <li><a href="rooms-detail.html">ROOMS DETAIL</a></li>
                         </ul>
                     </li>
@@ -89,19 +91,24 @@
                 </ul>
                 <ul class="nav-right">
                     <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="booking.html">BOOKING</a></li>
-                    <li class="sub"><a href="blog.html">BLOG</a>
-                        <ul>
+                    <li id="bookingButton"><a href="#">BOOKING</a></li>
+                    <li id="blogButton"><a href="#">OFFERS</a></li>
+                        <!-- ul>
                             <li><a href="blog.html">BLOG LISTING</a></li>
                             <li><a href="blog-single.html">BLOG SINGLE PHOTO</a></li>
                             <li><a href="blog-single-gallery.html">BLOG SINGLE GALLERY</a></li>
                             <li><a href="blog-single-vimeo.html">BLOG SINGLE VIMEO</a></li>
                             <li><a href="blog-single-youtube.html">BLOG SINGLE YOUTUBE</a></li>
-                        </ul>
+                        </ul -->
                     </li>
                     <li><a href="contactus.html">CONTACT</a></li>
                 </ul>
             </div>
+             
+            <div id="popup" class="popup">
+                <p>Coming soon!</p>
+            </div>
+
             <div class="header-toggle">
                 <i class="fa fa-bars"></i>
             </div>
@@ -141,7 +148,7 @@
                         <div class="wrapper">
                             <div class="item-inner">
                                 <h5>WELCOME TO THE AYYO VILLAGE</h5>
-                                <h1>Experience the luxury</h1>
+                                <h1>Experience the comfort</h1>
                                 <h2>in Isiolo</h2>
                             </div>
                         </div>
@@ -149,6 +156,7 @@
                 </div>
                 <!-- Slider Carousel End -->
                 <!-- Slider Booking -->
+                <!--
                 <div class="slider-booking">
                     <div class="wrapper">
                         <h5>RESERVE YOUR STAY</h5>
@@ -187,10 +195,12 @@
                         </form>
                     </div>
                 </div>
+                 -->
                 <!-- Slider Booking End -->
             </div>
         </div>
     </div>
+    
     <!-- Section Slider End -->
 
     <!-- Section Rooms -->
@@ -209,7 +219,7 @@
                     <div class="rooms-item">
                         <div class="item-inner">
                             <div class="item-photo">
-                                <a href="rooms-detail.html" data-background="https://res.cloudinary.com/drcqfiqpv/image/upload/v1664874992/singleroom_cw5pt3.png"></a>
+                                <a href="rooms-detail.html" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706793702/Singleroom.png"></a>
                             </div>
                             <div class="item-desc">
                                 <h2><a href="rooms-detail.html">Single Room</a></h2>
@@ -232,6 +242,9 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Room hide
+
                     <div class="rooms-item">
                         <div class="item-inner">
                             <div class="item-photo">
@@ -272,6 +285,9 @@
                         </div>
                     </div> 
                 </div>
+
+                end of Room hide-->
+
                 <!-- Rooms Carousel End -->
             </div>
         </div>
@@ -286,11 +302,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <h5>ABOUT AYYO VILLAGE</h5>
-                            <h2>Your Perfect Escape</h2>
-                            <p>Tired of your daily routine? Seeking for a place to stay and rest with your family? You are in the right place!
-                                Ayyo Village Hotel & Restaurant offers the best services in Isiolo: outdoor swimming pool, gym, restaurant, conference rooms, comfy rooms and parking space. Discover all the services that Ayyo Village Hotel & Restaurant can offer you and come and enjoy our best visits with us.Our Hotel & Restaurant provides luxury and historic accommodations for travelers. It combines modern style and amenities with traditional values. 
-                                All rooms are equipped with air conditioners and LCD TVs. Free WI-FI service is available throughout the territory of the hotel. Our restaurant food and meals from world cuisines unite people connecting history and traditions. Experience our warm hospitality, high quality of service and exceptional comfort! Make a reservation for your dream vacation today!   
-                                </p>
+                            <h2>Your Ideal Getaway</h2>
+                            <p>Escape your daily routine and relax at Ayyo Village Hotel. We offers great services including dining, conference facilities, cozy rooms, and ample parking. Enjoy luxury and hospitality during your stay!</p> 
+                            <p>Modern amenities like LCD TVs in all rooms and free Wi-Fi throughout make your stay convenient. Savor delicious meals at our restaurant, blending flavors with tradition. Experience our warm hospitality and exceptional comfort. Book your dream vacation today! </p>
                             <a href="aboutus.html" class="btn">LEARN MORE</a>
                         </div>
                     </div>
@@ -317,13 +331,13 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="features-item" data-background="assets/img/photo-services-1-2.jpg">
                                 <a href="#">
-                                    <h3>Luxury Rooms &amp; Lounge</h3>
-                                    <p>Immerse yourself in the comfort of our luxurious rooms and lounge, where every detail is crafted for your relaxation and pleasure.</p>
+                                    <h3>Luxury Rooms</h3>
+                                    <p>Immerse yourself in the comfort of our comfortable rooms and lounge, where every detail is crafted for your relaxation and pleasure.</p>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="features-item" data-background="assets/img/photo-services-2-1.jpg">
+                            <div class="features-item" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893845/Facilities_PrivateDinning.png">
                                 <a href="#">
                                     <h3>Private Dining</h3>
                                     <p>Experience culinary delight in our private dining spaces. Immerse yourself in exquisite flavors in an intimate setting.</p>
@@ -331,7 +345,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="features-item" data-background="assets/img/photo-services-3-1.jpg">
+                            <div class="features-item" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706793716/Conferencehalls.jpg">
                                 <a href="#">
                                     <h3>Conference &amp; Events</h3>
                                     <p>Host successful conferences and events in our state-of-the-art facilities. We provide a seamless experience for your business gatherings.</p>
@@ -339,13 +353,16 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="features-item" data-background="assets/img/photo-services-4-1.jpg">
+                            <div class="features-item" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893838/Facilities_WeddingSpace.png">
                                 <a href="#">
                                     <h3>Wedding Venue</h3>
                                     <p>Celebrate your special day in elegance at our enchanting wedding venue. Create timeless memories surrounded by picturesque settings.</p>
                                 </a>
                             </div>
                         </div>
+
+                        <!-- Facility hide
+
                         <div class="col-lg-4 col-sm-6">
                             <div class="features-item" data-background="assets/img/photo-services-5-1.jpg">
                                 <a href="#">
@@ -362,6 +379,9 @@
                                 </a>
                             </div>
                         </div>
+
+                        end facility hide -->
+
                     </div>
                 </div>
                 <!-- Features Content End -->
@@ -377,42 +397,51 @@
                 <!-- Gallery Title -->
                 <div class="widget-title">
                     <h5>GALLERY</h5>
-                    <h2>Discover AYYO VILLAGE</h2>
-                    <p>Embark on a visual journey through Ayyo Village. Our gallery showcases the enchanting spaces, from the inviting swimming pool to the opulent luxury rooms and the picturesque private dining areas. Let the images speak of the beauty and charm that await you at Ayyo Village Hotel & Restaurant.</p>
-                </div>
+                        <h2>Explore AYYO VILLAGE</h2>
+                        <p>Take a visual tour of Ayyo Village through our gallery. Experience the inviting comfy rooms and picturesque dining areas. Let these images reveal the beauty and charm of Ayyo Village Hotel</p>
                 <!-- Gallery Title End -->
                 <!-- Gallery Carousel -->
+
+                
                 <div class="widget-carousel owl-carousel owl-theme">
+
+                    <!--
                     <div class="gallery-item">
                         <a href="assets/img/photo-services-6-1.jpg" data-background="assets/img/photo-services-6-1.jpg" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Swimming Pool</span>
                         </a>
                     </div>
+                    -->
+
                     <div class="gallery-item">
-                        <a href="assets/img/photo-services-1-2.jpg" data-background="assets/img/photo-services-1-2.jpg" title="Photo Name" class="popup-gallery">
+                        <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706894654/Facilities_Luxuryrooms.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706894654/Facilities_Luxuryrooms.png" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Luxury Rooms &amp; Lounge</span>
                         </a>
                     </div>
                     <div class="gallery-item">
-                        <a href="assets/img/photo-services-2-1.jpg" data-background="assets/img/photo-services-2-1.jpg" title="Photo Name" class="popup-gallery">
+                        <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893845/Facilities_PrivateDinning.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893845/Facilities_PrivateDinning.png" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Private Dining</span>
                         </a>
                     </div>
                     <div class="gallery-item">
-                        <a href="assets/img/photo-services-3-1.jpg" data-background="assets/img/photo-services-3-1.jpg" title="Photo Name" class="popup-gallery">
+                        <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706894466/Facilities_ConferenceHalls.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706894466/Facilities_ConferenceHalls.png" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Conference &amp; Events</span>
                         </a>
                     </div>
                     <div class="gallery-item">
-                        <a href="assets/img/photo-services-4-1.jpg" data-background="assets/img/photo-services-4-1.jpg" title="Photo Name" class="popup-gallery">
+                        <a href="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893838/Facilities_WeddingSpace.png" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1706893838/Facilities_WeddingSpace.png" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Wedding Venue</span>
                         </a>
                     </div>
+
+                    <!--
                     <div class="gallery-item">
                         <a href="assets/img/photo-services-5-1.jpg" data-background="assets/img/photo-services-5-1.jpg" title="Photo Name" class="popup-gallery">
                             <span class="item-text">Spa &amp; Beauty Center</span>
                         </a>
                     </div>
+                    -->
+
                 </div>
                 <!-- Gallery Carousel End -->
             </div>
@@ -440,174 +469,10 @@
         </div>
     </div>
     <!-- Section Video End -->
+    
+     
+ 
 
-    <!-- Section Offers -->
-    <div class="section">
-        <div class="widget-offers-grid" data-background="assets/img/photo-offers.jpg">
-            <div class="wrapper-inner">
-                <!-- Offers Title -->
-                <div class="widget-title">
-                    <h5>OFFERS</h5>
-                    <h2>The Ayyo Village Special Offers</h2>
-                    <p>Experience Ayyo Village with our special offers. Stay 3 nights and save 20%, explore wedding specials, indulge in the launch offer at our spa, or enjoy a free glass of French coffee with our daily classics menu. These exclusive offers are crafted to enhance your stay and create lasting memories.</p>
-                </div>
-                <!-- Offers Title End -->
-                <!-- Offers Content -->
-                <div class="widget-inner">
-                    <div class="offers-item">
-                        <div class="item-inner">
-                            <div class="item-photo" data-background="assets/img/photo-offers-1.jpg"></div>
-                            <div class="item-desc">
-                                <h3>Stay 3 Nights - Save 20%</h3>
-                                <p>Extend your stay and indulge in the charm of Ayyo Village. Book a 3-night getaway and enjoy an exclusive 20% discount. Immerse yourself in the tranquility of our surroundings while saving on your unforgettable experience.</p>
-                                <a href="#" class="btn-link">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offers-item">
-                        <div class="item-inner">
-                            <div class="item-photo" data-background="assets/img/photo-offers-2.jpg"></div>
-                            <div class="item-desc">
-                                <h3>Weddings Special Offer 2016</h3>
-                                <p>Celebrate your special day at Ayyo Village Hotel with our exclusive Weddings Special Offer for 2023. Create everlasting memories in our picturesque venue, surrounded by nature's beauty. Let us turn your dream wedding into a reality.</p>
-                                <a href="#" class="btn-link">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offers-item">
-                        <div class="item-inner">
-                            <div class="item-photo" data-background="assets/img/photo-offers-3.jpg"></div>
-                            <div class="item-desc">
-                                <h3>Spa Treatment Launch Offer</h3>
-                                <p>Pamper yourself with our Spa Treatment Launch Offer. Rejuvenate your body and soul with our specially curated spa packages. Experience bliss and relaxation as our skilled therapists cater to your well-being in the serene ambiance of Ayyo Village.</p>
-                                <a href="#" class="btn-link">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offers-item">
-                        <div class="item-inner">
-                            <div class="item-photo" data-background="assets/img/photo-offers-4.jpg"></div>
-                            <div class="item-desc">
-                                <h3>Free Glass of French Coffee with Daily Classics Menu</h3>
-                                <p>Savor the flavors of Ayyo Village with our Daily Classics Menu. Enjoy a complimentary glass of French coffee with every order. Immerse yourself in the culinary delights of our menu while relishing the warmth of our hospitality.</p>
-                                <a href="#" class="btn-link">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Offers Content End -->
-            </div>
-        </div>
-    </div>
-    <!-- Section Offers End -->
-
-    <!-- Section Blog -->
-    <div class="section">
-        <div class="widget-blog-carousel">
-            <div class="wrapper-full-inner">
-                <!-- Blog Title -->
-                <div class="widget-title">
-                    <h5>BLOG</h5>
-                    <h2>Latest News</h2>
-                    <p>Stay updated with the latest news from Ayyo Village. From the best things to do in Isiolo to a leisurely walk around our hotel, top events in the area, and a peek into our Texas Tours week – our blog keeps you informed and entertained. Join us on a virtual journey through articles, videos, and event highlights.</p>
-                </div>
-                <!-- Blog Title End -->
-                <!-- Blog Carousel -->
-                <div class="widget-carousel owl-carousel owl-theme">
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>20</b>DEC</div>
-                            <div class="media-photo">
-                                <a href="blog-single.html" data-background="assets/img/photo-blog-1.jpg"></a>    
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single.html">Festive Delights: Isiolo's Top Events This December</a></h3>
-                            <h5>EVENTS</h5>
-                            <p>Discover the exciting events happening in Isiolo this December. From cultural festivals to holiday celebrations, our guide will ensure you make the most of your visit. Join us in creating lasting memories at Ayyo Village Hotel.</p>
-                            <a href="blog-single.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>14</b>NOV</div>
-                            <div class="media-photo">
-                                <a href="blog-single.html" data-background="assets/img/photo-blog-2.jpg"></a>    
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single.html">Nature's Retreat: A Tranquil Walk around Ayyo Village</a></h3>
-                            <h5>TRAVEL</h5>
-                            <p>Embark on a peaceful stroll around Ayyo Village Hotel's lush surroundings. Breathe in the fresh air, enjoy the picturesque landscapes, and immerse yourself in the tranquility that nature provides. A perfect escape from the hustle and bustle.</p>
-                            <a href="blog-single.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>18</b>NOV</div>
-                            <div class="media-photo">
-                                <a href="blog-single.html" data-background="assets/img/photo-blog-3.jpg"></a>    
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single.html">Exploring Isiolo: A Journey into the Heart of Culture</a></h3>
-                            <h5>CULTURE</h5>
-                            <p>Join us on a cultural adventure through Isiolo, discovering the traditions, flavors, and vibrant life that make our community unique. From local markets to hidden gems, experience the richness of Isiolo with Ayyo Village Hotel.</p>
-                            <a href="blog-single.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>17</b>OCT</div>
-                            <div class="media-gallery">
-                                <div class="media-carousel owl-carousel owl-theme owl-type1">
-                                    <a href="blog-single-gallery.html" data-background="assets/img/photo-blog-4.jpg"></a>
-                                    <a href="blog-single-gallery.html" data-background="assets/img/photo-blog-1.jpg"></a>
-                                    <a href="blog-single-gallery.html" data-background="assets/img/photo-blog-2.jpg"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single-gallery.html">Capturing Moments: Texas Tours Week at Ayyo Village</a></h3>
-                            <h5>EVENTS</h5>
-                            <p>Relive the excitement of Texas Tours Week at Ayyo Village through captivating images. From adventurous outings to cozy evenings, our gallery showcases the diverse experiences our guests enjoyed during this special event.</p>
-                            <a href="blog-single-gallery.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>14</b>AUG</div>
-                            <div class="media-video video-full">
-                                <iframe src="http://player.vimeo.com/video/39493181?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="500" height="281"></iframe>
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single-vimeo.html">A Glimpse of Luxury: The Ayyo Village Hotel Experience</a></h3>
-                            <h5>ACCOMONDATION</h5>
-                            <p>Indulge in the ultimate holiday gift with a stay at Ayyo Village Hotel. Our video tour gives you a sneak peek into the luxurious accommodations, exquisite dining, and unparalleled hospitality that await you at our splendid retreat.</p>
-                            <a href="blog-single-vimeo.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="item-media">
-                            <div class="item-date"><b>12</b>MAY</div>
-                            <div class="media-video video-full">
-                                <iframe src="http://www.youtube.com/embed/SqeYP8EU79M" width="560" height="315" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="item-desc">
-                            <h3><a href="blog-single-youtube.html">Savoring Moments: Holiday Dining & &amp; Afternoon Tea Specials</a></h3>
-                            <h5>SERVICES</h5>
-                            <p>Experience the joy of holiday dining and delightful afternoon tea specials at Ayyo Village. From mouthwatering dishes to charming settings, our offerings are designed to make your holiday season truly memorable.</p>
-                            <a href="blog-single-youtube.html" class="btn-link">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog Carousel End -->
-            </div>
-        </div>
-    </div>
-    <!-- Section Blog End -->
 
     <!-- Section Testimonials -->
     <div class="section">
@@ -617,90 +482,89 @@
                 <div class="widget-title">
                     <h5>TESTIMONIALS</h5>
                     <h2>Happy Clients</h2>
-                    <p>Discover why our clients love Ayyo Village. Read testimonials from happy guests like Boru Dika, Paul Mero, Lucy Mworia, and Boss Mohamed. Their words reflect the warmth, comfort, and exceptional service that make Ayyo Village a preferred choice for travelers.</p>
+                    <p>Discover why our clients love Ayyo Village. Read testimonials from happy guests. Their words reflect the warmth, comfort, and exceptional service that make Ayyo Village a preferred choice for travelers.</p>
                 </div>
                 <!-- Testimonials Title End -->
                 <!-- Testimonials Carousel -->
                 <div class="widget-carousel owl-carousel owl-theme">
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            Our stay at Ayyo Village Hotel was truly enchanting. The serene atmosphere and impeccable service made it a memorable experience. We can't wait to visit again!
+                            Our stay at Ayyo Village Hotel was amazing. Great service and atmosphere, can't wait to come back!
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-1.jpg"></div>
-                            <h5>BORU DIKA</h5>
-                            <h6>CEHRAB, ISIOLO</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>BERNARD KYALO</h5>
+                            <h6>MAKUENI, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            Ayyo Village exceeded our expectations. The warm hospitality and attention to detail made our event truly special. Thank you for making it a day to remember!
+                            Ayyo Village exceeded our expectations. Thanks for making our event special!
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-2.jpg"></div>
-                            <h5>PAUL MERO</h5>
-                            <h6>BURAT, ISIOLO</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>PAUL NJUGUNA</h5>
+                            <h6>NYERI, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            The spa treatment at Ayyo Village was a rejuvenating experience. Professional staff and a tranquil environment made it the perfect escape. Highly recommended!
+                            Professional staff and serene environment. Highly recommended!
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-3.jpg"></div>
-                            <h5>LUCY MWORIA</h5>
-                            <h6>WABERA, ISIOLO</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>CELESTINE ODHIAMBO</h5>
+                            <h6>KISUMU, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            Our wedding at Ayyo Village was a dream come true. The stunning venue, delicious menu, and attentive staff made it an unforgettable celebration. Thank you for making our day magical!
+                            Our wedding at Ayyo Village was perfect. Thanks for the unforgettable celebration!
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-4.jpg"></div>
-                            <h5>BOSS MOHAMED</h5>
-                            <h6>SOUTH SUDAN</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>JOSEPH LOITOK</h5>
+                            <h6>TURKANA, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            Ayyo Village Hotel is a hidden gem in Isiolo. The beautiful rooms, delicious dining, and friendly staff made our stay remarkable. We can't wait to return and explore more of what Ayyo Village has to offer!
+                            The beautiful rooms, delicious dining, and friendly staff made our stay remarkable.
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-1.jpg"></div>
-                            <h5>BORU DIKA</h5>
-                            <h6>SALETI, ISIOLO</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>ANNE NGAKI</h5>
+                            <h6>MERU, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            We hosted a conference at Ayyo Village, and it was a huge success. The modern facilities, comfortable spaces, and top-notch service impressed both us and our attendees. Ayyo Village is the perfect venue for corporate events.
+                            We hosted a successful conference at Ayyo Village. Perfect venue for events!
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-2.jpg"></div>
-                            <h5>GALGALO WAKO</h5>
-                            <h6>MERTI, ISIOLO</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>ZAIDA JUMA</h5>
+                            <h6>MOMBASA, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            The attention to detail at Ayyo Village is unmatched. From the cozy rooms to the delicious dining options, every aspect of our stay was carefully curated. It truly felt like a home away from home.
+                            Felt like a home away from home!.
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-3.jpg"></div>
-                            <h5>IBRAHIM MUGUNA</h5>
-                            <h6>NKUBU, MERU</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>MOHAMUD MOHAMED</h5>
+                            <h6>GARISSA, KENYA</h6>
                         </div>
                     </div>
                     <div class="testimonials-item">
                         <div class="item-comment">
-                            Ayyo Village Hotel's commitment to excellence shines through. The swimming pool, spa, and other amenities provided a perfect balance of relaxation and entertainment. Thank you for making our holiday unforgettable.
-</div>
+                            Perfect balance of relaxation and entertainment. Thank you for an unforgettable experience.
                         </div>
                         <div class="item-customer">
-                            <div class="customer-photo" data-background="assets/img/user-4.jpg"></div>
-                            <h5>BOSS MOHAMED</h5>
-                            <h6>SOUTH SUDAN</h6>
+                            <div class="customer-photo" data-background="https://res.cloudinary.com/dfwpmwtff/image/upload/v1700553320/user.jpg"></div>
+                            <h5>JUMA HUSSEIN</h5>
+                            <h6>ISIOLO, KENYA</h6>
                         </div>
                     </div>
                 </div>
@@ -751,7 +615,7 @@
                 <img src="https://res.cloudinary.com/drcqfiqpv/image/upload/v1664873109/LOGO_brown_WHITE_Small_II_k4u6gj.png" alt="The Ayyo Village Hotel">
             </div>
             <div class="footer-copyright">
-                <p>COPYRIGHT © Ayyo Village Hotel & Restaurant.</p>
+                <p>COPYRIGHT © Ayyo Village Hotel.</p>
             </div>
             <div class="footer-contact">
                 <ul>
@@ -791,5 +655,6 @@
 
 <!-- Custom Scripts -->
 <script src="assets/js/custom.js"></script>
+
 </body>
 </html>
