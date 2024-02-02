@@ -358,3 +358,27 @@
 	/*-- WINDOW RESIZE END --*/
   
 })(jQuery);
+
+// Get the button and popup elements
+var bookingButton = document.getElementById("bookingButton");
+var blogButton = document.getElementById("blogButton");
+var popup = document.getElementById("popup");
+
+// Function to show the popup
+function showPopup() {
+    popup.style.display = "block";
+    
+    // Set a timeout to hide the popup after 3 seconds (3000 milliseconds)
+    setTimeout(function() {
+        popup.style.display = "none";
+    }, 3000);
+}
+
+// Add click event listeners to the buttons if they exist
+if (bookingButton) {
+    bookingButton.addEventListener("click", showPopup);
+}
+
+if (blogButton) {
+    blogButton.addEventListener("click", showPopup);
+}
